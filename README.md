@@ -34,18 +34,20 @@ app('placeholder')->tag(640, 360, $tagClass = 'img-responsive')
 ## 安装与配置
 
 1. 使用 composer 安装包
-```shell
-$ composer require "sqrtqiezi/laravel-placeholder:~1.0"
-```
+
+    ```shell
+    $ composer require "sqrtqiezi/laravel-placeholder:~1.0"
+    ```
 
 2. 添加下面一行到 `config/app.php` 中 `providers` 部分
 
-```php
-Sqrtqiezi\LaravelPlaceholder\LaravelPlaceholderProvider::class,
-```
+    ```php
+    Sqrtqiezi\LaravelPlaceholder\LaravelPlaceholderProvider::class,
+    ```
 
 3. 发布配置文件
 
-```php
-$ php artisan vendor:publish --class="Sqrtqiezi\LaravelPlaceholder\LaravelPlaceholderProvider"
-```
+    ```php
+    $ php artisan vendor:publish --class="Sqrtqiezi\LaravelPlaceholder\LaravelPlaceholderProvider"
+    ```
+  
