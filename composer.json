@@ -1,0 +1,22 @@
+{
+  "name": "sqrtqiezi/laravel-placeholder",
+  "description": "Laravel Package used for generate high-resolution placeholder image url or tag.",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "sqrtqiezi",
+      "email": "njin.cool@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Sqrtqiezi\\LaravelPlaceholder\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "require-dev": {
+    "orchestra/testbench": "~3.4"
+  }
+}
