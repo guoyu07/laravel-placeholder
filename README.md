@@ -42,12 +42,12 @@ app('placeholder')->tag(640, 360, $tagClass = 'img-responsive')
 2. 添加下面一行到 `config/app.php` 中 `providers` 部分
 
     ```php
-    Sqrtqiezi\LaravelPlaceholder\LaravelPlaceholderProvider::class,
+    Sqrtqiezi\LaravelPlaceholder\PlaceholderServiceProvider::class,
     ```
 
 3. 发布配置文件
 
     ```php
-    $ php artisan vendor:publish --class="Sqrtqiezi\LaravelPlaceholder\LaravelPlaceholderProvider"
+    $ php artisan vendor:publish --class="Sqrtqiezi\LaravelPlaceholder\PlaceholderServiceProvider"
     ```
   
