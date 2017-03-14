@@ -18,7 +18,7 @@ app('placeholder')->tag(640, 360, $tagClass = 'img-responsive')
 可以通过修改配置文件 `config/placeholder.php` :
 ```php
 //图片服务类别，目前支持：unplash 和 placeimg
-    'service' => 'placeimg',
+'service' => 'placeimg'
 ```
 
 切换调用的服务接口：
