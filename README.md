@@ -1,4 +1,4 @@
-# Laravel Placeholder
+# Laravel Placeholder [![Build Status](https://api.travis-ci.org/sqrtqiezi/laravel-placeholder.svg?branch=master)](https://travis-ci.org/sqrtqiezi/laravel-placeholder)
 
 利用 unsplash.it 和 placeimg.com 的接口生成高质量的占位图。
 
